@@ -1,3 +1,8 @@
+* {
+  background-color: rgb(15, 14, 17);
+  font-family: "Century Gothic", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+}
 body {
   margin: 0;
   padding: 10px;
@@ -5,27 +10,35 @@ body {
 }
 
 input {
+  background: #c7b1d6;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  border: 1px solid #25035c;
+  border: 1px solid rgb(88, 8, 58);
   margin-bottom: 4px;
 }
-
+input[type="text"],
+textarea {
+  background: #c7b1d6;
+}
 button {
-  background: #25035c;
-  color: white;
-  padding: 10px 20px;
-  border: none;
+  background: #bc95d6;
+  color: rgb(88, 8, 58);
+  margin-top: 10px;
+  padding: 15px 20px;
+  border: 1px solid rgb(88, 8, 58);
   font-weight: bold;
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px rgba(128, 86, 86, 0.3);
 }
 ul {
   list-style: none;
+  padding: 0;
 }
 
 li {
 }
 
-a {
-  color: #25035c;
+li a {
+  color: #c7b1d6;
 }
