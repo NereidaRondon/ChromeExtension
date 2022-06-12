@@ -4,6 +4,8 @@
     "Trebuchet MS", sans-serif;
 }
 body {
+  min-width: 400px;
+  max-width: 410px;
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
