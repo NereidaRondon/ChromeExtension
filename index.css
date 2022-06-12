@@ -10,35 +10,34 @@ body {
 }
 
 input {
-  background: #c7b1d6;
+  background: #1b91b4;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  border: 1px solid rgb(88, 8, 58);
+  border: 1px solid #032c61;
   margin-bottom: 4px;
 }
 input[type="text"],
 textarea {
-  background: #c7b1d6;
+  background: #1b91b4;
 }
+
 button {
-  background: #bc95d6;
-  color: rgb(88, 8, 58);
-  margin-top: 10px;
-  padding: 15px 20px;
-  border: 1px solid rgb(88, 8, 58);
+  background: #016483;
+  color: #032c61;
+  font-size: 15px;
+  margin-top: 3px;
+  padding: 10px 15px;
+  border: 2px solid #032c61;
   font-weight: bold;
   border-radius: 3px;
-  box-shadow: 3px 3px 2px rgba(128, 86, 86, 0.3);
+  box-shadow: 2px 2px 7px rgba(121, 193, 241, 0.3);
 }
 ul {
   list-style: none;
   padding: 0;
 }
 
-li {
-}
-
 li a {
-  color: #c7b1d6;
+  color: #04c4ff;
 }
