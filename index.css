@@ -19,3 +19,13 @@ button {
   border: none;
   font-weight: bold;
 }
+ul {
+  list-style: none;
+}
+
+li {
+}
+
+a {
+  color: #25035c;
+}
