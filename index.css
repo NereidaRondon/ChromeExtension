@@ -32,11 +32,13 @@ button {
   border-radius: 1px;
   box-shadow: 2px 2px 7px rgba(121, 193, 241, 0.3);
 }
-#input-btn {
+#input-btn,
+#tab-btn {
   background: #032c61;
   color: #0eaedf;
   border: 1px solid #0eaedf;
 }
+
 #delete-btn {
   background: #0eaedf;
   color: #032c61;
