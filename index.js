@@ -44,5 +44,5 @@ inputBtn.addEventListener("click", function () {
   inputEl.value = ""; //the input box is cleared/emptied
   localStorage.setItem("myLeads", JSON.stringify(myLeads));
 
-  renderLeads(myLeads);
+  render(myLeads);
 });
