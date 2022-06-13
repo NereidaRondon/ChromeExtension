@@ -47,6 +47,3 @@ inputBtn.addEventListener("click", function () {
 
   render(myLeads);
 });
-printBtn.addEventListener("click", function () {
-  window.print();
-});

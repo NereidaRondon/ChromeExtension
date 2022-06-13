@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "version": "1.0",
   "name": "My Resource Bank",
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "printing"],
   "action": {
     "default_popup": "index.html",
     "default_icon": "icon.png"
