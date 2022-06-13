@@ -1,27 +1,27 @@
 * {
-  background-color: rgb(27, 29, 34);
+  background-color: rgb(25, 26, 29);
   font-family: "Century Gothic", "Gill Sans", "Gill Sans MT", Calibri,
     "Trebuchet MS", sans-serif;
 }
 body {
   min-width: 400px;
-  max-width: 410px;
+
   margin: 0;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
-  background: #1b91b4;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
   border: 1px solid #032c61;
   margin-bottom: 4px;
 }
+
 input[type="text"],
 textarea {
-  background: #1b91b4;
+  background: #94e6ff;
 }
 
 button {
@@ -30,10 +30,11 @@ button {
   padding: 10px 15px;
   font-weight: bold;
   border-radius: 1px;
-  box-shadow: 2px 2px 7px rgba(121, 193, 241, 0.3);
+  box-shadow: 1px 2px 5px rgba(121, 193, 241, 0.3);
 }
 #input-btn,
-#tab-btn {
+#tab-btn,
+#print-btn {
   background: #032c61;
   color: #0eaedf;
   border: 1px solid #0eaedf;
@@ -42,7 +43,7 @@ button {
 #delete-btn {
   background: #0eaedf;
   color: #032c61;
-  border: 1px solid #032c61;
+  border: 1px solid #0eaedf;
 }
 ul {
   list-style: none;

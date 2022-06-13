@@ -4,6 +4,7 @@ const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
 const deleteBtn = document.getElementById("delete-btn");
 const tabBtn = document.getElementById("tab-btn");
+const printBtn = document.getElementById("print-btn");
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
 //if true make the function equal to the array
 if (leadsFromLocalStorage) {
@@ -45,4 +46,7 @@ inputBtn.addEventListener("click", function () {
   localStorage.setItem("myLeads", JSON.stringify(myLeads));
 
   render(myLeads);
+});
+printBtn.addEventListener("click", function () {
+  window.print();
 });
