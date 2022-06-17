@@ -2,8 +2,8 @@ let myLeads = [];
 const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
 const ulEl = document.getElementById("ul-el");
-const deleteBtn = document.getElementById("delete-btn");
 const tabBtn = document.getElementById("tab-btn");
+const deleteBtn = document.getElementById("delete-btn");
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
 
 //if true make the function equal to the array
@@ -14,8 +14,7 @@ if (leadsFromLocalStorage) {
 
 tabBtn.addEventListener("click", function () {
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-    // since only one tab should be active and in the current window at once
-    // the return variable should only have one entry
+    // since only one tab should be active and in the current window at once the return variable should only have one entry
     let activeTab = tabs[0];
     let activeTabId = activeTab.id;
   });
@@ -29,6 +28,7 @@ tabBtn.addEventListener("click", function () {
 function render(leads) {
   //start with an empty string to house the inputs
   let listItems = "";
+
   for (let i = 0; i < leads.length; i++) {
     // concatenates all of the inputs together into an array
     listItems += `<li>

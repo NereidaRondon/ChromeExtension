@@ -1,16 +1,18 @@
 * {
-  background-color: rgb(25, 26, 29);
+background-color: #94d5e9;
   
 }
 body {
-  min-width: 400px;
-  color: #04c4ff;
+
+  color: #032147;
   margin: 0;
   padding: 10px;
-}  
+}
+
+
 h1 {
   font-family: Sacramento; "Century Gothic";
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 100;
   margin: 0;
   padding: 0 0 10px 0;
@@ -23,7 +25,9 @@ h3 {
 p{
   font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
 }
-
+.note{
+  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
+}
 input {
   width: 70%;
   padding: 10px;
@@ -34,7 +38,7 @@ input {
 
 input[type="text"],
 textarea {
-  background: #94e6ff;
+  background: #d6f1fa;
 }
 
 button {
@@ -46,29 +50,32 @@ button {
   border-radius: 1px;
   box-shadow: 1px 2px 5px rgba(121, 193, 241, 0.3);
 }
- input[type="submit"]{
+input[type="submit"]{
   font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
   font-size: 15px;
-  margin: none;
+  margin: 0;
   padding: 8px 15px;
   font-weight: bold;
   border-radius: 1px;
   box-shadow: 1px 2px 5px rgba(121, 193, 241, 0.3);
   width: 100px;
- }
-
-#tab-btn {
-  margin: none;
-  background: #032c61;
-  color: #0eaedf;
-  border: 1px solid #0eaedf;
+  border-radius: 5px;
 }
 
-#delete-btn{
+#bankTab-btn {
+  margin: none;
+  background: #032c61;
+  color: #46ccf5;
+  border: 1px solid #032c61;
+  border-radius: 5px;
+}
+
+#clear-btn{
   margin: none;
   background: #0eaedf;
   color: #032c61;
-  border: 1px solid #0eaedf;
+  border: 1px solid #032c61;
+  border-radius: 5px;
 }
 ul {
   list-style: none;
@@ -80,16 +87,16 @@ ul {
 }
 
 li a {
-  color: #04c4ff;
+  color: #021125;
   font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
 }
 
 li {
   line-height: 1.5em;
   float: left;
-  display: inline;
+  display: list-item;
   font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
 }
-#ul-el li {
+#description li {
   width: 100%;
 }
