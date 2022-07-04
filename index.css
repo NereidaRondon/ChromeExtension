@@ -1,33 +1,22 @@
 * {
 background-color: #94d5e9;
-  
+
 }
 body {
-
+  min-width: 700px;
   color: #032147;
   margin: 0;
   padding: 10px;
 }
 
-
 h1 {
-  font-family: Sacramento; "Century Gothic";
+  font-family: Sacramento; "Century Gothic", "Gill Sans", Calibri, sans-serif;
   font-size: 50px;
   font-weight: 100;
   margin: 0;
   padding: 0 0 10px 0;
 }
-h3 {
-  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
-  margin: 20px 0px 0px 0px;
-  padding: 0 0 10px 0;
-}
-p{
-  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
-}
-.note{
-  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
-}
+
 input {
   width: 70%;
   padding: 10px;
@@ -41,25 +30,25 @@ textarea {
   background: #d6f1fa;
 }
 
-button {
-  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
-  font-size: 15px;
-  margin: none;
-  padding: 8px 15px;
-  font-weight: bold;
-  border-radius: 1px;
-  box-shadow: 1px 2px 5px rgba(121, 193, 241, 0.3);
-}
 input[type="submit"]{
   font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
   font-size: 15px;
   margin: 0;
-  padding: 8px 15px;
+  padding: 9px 15px;
   font-weight: bold;
   border-radius: 1px;
   box-shadow: 1px 2px 5px rgba(121, 193, 241, 0.3);
   width: 100px;
   border-radius: 5px;
+}
+button {
+  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
+  font-size: 15px;
+  margin: none;
+  padding: 9px 15px;
+  font-weight: bold;
+  border-radius: 1px;
+  box-shadow: 1px 2px 5px rgba(121, 193, 241, 0.3);
 }
 
 #bankTab-btn {
@@ -78,25 +67,12 @@ input[type="submit"]{
   border-radius: 5px;
 }
 ul {
+  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
   list-style: none;
   padding: 0;
-  width: 760px;
   margin-bottom: 20px;
-  overflow: hidden;
-  
-}
-
-li a {
+  overflow: wrap;
   color: #021125;
-  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
 }
 
-li {
-  line-height: 1.5em;
-  float: left;
-  display: list-item;
-  font-family: "Century Gothic", "Gill Sans", Calibri, sans-serif;
-}
-#description li {
-  width: 100%;
-}
+
